@@ -211,7 +211,7 @@ function restartGame(){
   platformGroup.destroyEach();
   diamondsGroup.destroyEach();
   spikesGroup.destroyEach();
-  coinScore=10;
+  coinScore=0;
   ironMan.y=50;
   restart.visible=false;
 }
